@@ -1,0 +1,18 @@
+/* specificity */
+
+h2:nth-child(even) {
+    background-color: gray;
+    padding: 3em;
+  }
+
+  section:nth-child(even) ol li:not(:first-child):nth-of-type(odd) {
+    background-color: yellow;
+  }
+
+  section:nth-child(odd) ol li:not(:first-child):nth-of-type(even) {
+    background-color: red;
+  }
+
+  ol > li {
+    padding: 2em;
+  }
