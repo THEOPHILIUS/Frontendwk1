@@ -1,6 +1,6 @@
 /* specificity */
 
-h2:nth-child(even) {
+h2 {
     background-color: gray;
     padding: 3em;
   }
